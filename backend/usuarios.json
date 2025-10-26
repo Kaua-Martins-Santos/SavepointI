@@ -1,0 +1,36 @@
+{
+  "jogadores": [
+    {
+      "telefone": "848584657745",
+      "nomeCompleto": "Zé da gasolina",
+      "nickname": "Legard",
+      "contador_visitas": 1,
+      "cla_id": null,
+      "historicoVisitas": [
+        {
+          "data": "2025-10-26T06:45:42.782Z",
+          "interesses": [
+            "RPG"
+          ],
+          "membrosPresentes": []
+        }
+      ]
+    },
+    {
+      "telefone": "19993334444",
+      "nomeCompleto": "Zé da gasolina",
+      "nickname": "Legard",
+      "contador_visitas": 1,
+      "cla_id": null,
+      "historicoVisitas": [
+        {
+          "data": "2025-10-26T06:52:32.579Z",
+          "interesses": [
+            "RPG"
+          ],
+          "membrosPresentes": []
+        }
+      ]
+    }
+  ]
+}

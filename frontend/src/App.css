@@ -1,0 +1,119 @@
+/* src/App.css - Estilos para a Edição de Elite */
+
+body {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #fca311;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.card {
+    background-color: #16213e;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #0f3460;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    color: #e5e5e5;
+    margin-bottom: -5px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #533483;
+    background-color: #0f3460;
+    color: #e0e0e0;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #fca311;
+    box-shadow: 0 0 10px #fca311;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fca311;
+    color: #16213e;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ffb742;
+    transform: translateY(-2px);
+}
+
+/* Estilos para o resultado final e gamificação */
+.resultado { text-align: center; }
+.resultado h2 { color: #fca311; }
+.mensagem.gamificacao-msg {
+    background-color: #fca311;
+    color: #16213e;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* NOVO: Estilos para o Seletor de Interesses */
+.interesses-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    border: 1px solid #0f3460;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.interesse-item {
+    display: flex;
+    align-items: center;
+    background-color: #0f3460;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.interesse-item input {
+    margin-right: 8px;
+}
+.interesse-item label {
+    margin: 0;
+    font-weight: normal;
+    cursor: pointer;
+}
