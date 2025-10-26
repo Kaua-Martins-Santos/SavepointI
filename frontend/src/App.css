@@ -1,119 +1,286 @@
-/* src/App.css - Estilos para a Edição de Elite */
+/* src/App.css (Tema Arsenal Arcana - Centralização Final e Layout Ajustado) */
+
+/* Importação de Fontes Temáticas do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+:root {
+  --cor-fundo-principal: #222831; 
+  --cor-fundo-secundario: #393e46; 
+  --cor-destaque-primario: #ffd369; 
+  --cor-destaque-secundario: #00adb5; 
+  --cor-texto-claro: #eeeeee;
+  --cor-texto-escuro: #222831;
+}
 
 body {
-    background-color: #1a1a2e;
-    color: #e0e0e0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--cor-fundo-principal);
+  color: var(--cor-texto-claro);
+  font-family: 'Roboto Condensed', sans-serif;
+  
+  /* Centralização Horizontal e Vertical Robusta */
+  display: flex;
+  justify-content: center; /* Centro Horizontal */
+  align-items: center;    /* Centro Vertical */
+  min-height: 100vh;
 }
 
 .container {
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 20px;
+  background: url('https://www.transparenttextures.com/patterns/dark-embroidery.png'), var(--cor-fundo-principal);
+  max-width: 540px; 
+  width: 100%;
+}
+
+/* Garante que o Header, Card e Botão respeitem a largura máxima para centralização */
+.container header, .container main, .container .ranking-button-container { 
     width: 100%;
-    max-width: 500px;
-    padding: 20px;
+    max-width: 500px; 
+}
+
+/* --- Cabeçalho e Títulos (Mantido) --- */
+header {
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 header h1 {
-    font-size: 3rem;
-    color: #fca311;
-    text-shadow: 2px 2px 4px #000;
+  font-family: 'Cinzel', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--cor-destaque-primario);
+  text-shadow: 0 0 10px rgba(255, 211, 105, 0.8), 0 0 5px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 10px 20px;
+  border: 3px solid var(--cor-destaque-primario);
+  border-radius: 5px;
+  background-color: rgba(57, 62, 70, 0.5);
 }
 
+h2 {
+  font-family: 'Cinzel', serif;
+  color: var(--cor-destaque-secundario);
+  font-size: 1.8rem;
+  border-bottom: 2px solid var(--cor-destaque-secundario);
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* --- Cartão Principal (Mantido) --- */
 .card {
-    background-color: #16213e;
-    padding: 30px;
-    border-radius: 15px;
-    border: 1px solid #0f3460;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  background-color: var(--cor-fundo-secundario);
+  border-radius: 12px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--cor-destaque-primario);
 }
 
+/* --- Formulários e Botões (Mantido) --- */
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 label {
-    text-align: left;
-    font-weight: bold;
-    color: #e5e5e5;
-    margin-bottom: -5px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: var(--cor-destaque-primario);
 }
 
-input[type="text"] {
-    padding: 12px;
-    border-radius: 8px;
-    border: 1px solid #533483;
-    background-color: #0f3460;
-    color: #e0e0e0;
-    font-size: 1rem;
+input[type="text"], input[type="tel"], input[type="number"] {
+  padding: 10px;
+  border: 2px solid var(--cor-destaque-secundario);
+  border-radius: 4px;
+  background-color: var(--cor-fundo-principal);
+  color: var(--cor-texto-claro);
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 input:focus {
-    outline: none;
-    border-color: #fca311;
-    box-shadow: 0 0 10px #fca311;
+  border-color: var(--cor-destaque-primario);
+  box-shadow: 0 0 5px var(--cor-destaque-primario);
+  outline: none;
 }
 
 button {
-    padding: 15px;
-    border: none;
-    border-radius: 8px;
-    background-color: #fca311;
-    color: #16213e;
-    font-size: 1.2rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-    margin-top: 10px;
+  background-color: var(--cor-destaque-secundario);
+  color: var(--cor-texto-escuro);
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-top: 25px;
+  transition: background-color 0.2s, transform 0.1s;
+  box-shadow: 0 4px var(--cor-destaque-primario);
 }
 
 button:hover {
-    background-color: #ffb742;
-    transform: translateY(-2px);
+  background-color: #00c7d4;
+  transform: translateY(-1px);
+  box-shadow: 0 5px var(--cor-destaque-primario);
 }
 
-/* Estilos para o resultado final e gamificação */
-.resultado { text-align: center; }
-.resultado h2 { color: #fca311; }
-.mensagem.gamificacao-msg {
-    background-color: #fca311;
-    color: #16213e;
-    font-weight: bold;
-    padding: 15px;
-    border-radius: 8px;
+button:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px var(--cor-destaque-primario);
 }
 
-/* NOVO: Estilos para o Seletor de Interesses */
+/* --- Seção de Interesses (Itens de Inventário) - AJUSTADO O LAYOUT --- */
 .interesses-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: flex-start;
-    border: 1px solid #0f3460;
-    padding: 15px;
-    border-radius: 8px;
+  display: grid; /* Grid para organizar em colunas */
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); /* 2 a 3 colunas em telas maiores */
+  gap: 10px;
+  margin-top: 10px;
+  border: 1px dashed var(--cor-destaque-secundario);
+  border-radius: 5px;
+  padding: 15px;
 }
 
 .interesse-item {
-    display: flex;
-    align-items: center;
-    background-color: #0f3460;
-    padding: 8px 12px;
-    border-radius: 20px;
-    cursor: pointer;
+    text-align: center; /* Centraliza o item dentro da célula */
 }
 
-.interesse-item input {
-    margin-right: 8px;
+.interesse-item input[type="checkbox"] {
+  display: none;
 }
+
 .interesse-item label {
-    margin: 0;
-    font-weight: normal;
+  background-color: var(--cor-fundo-principal);
+  color: var(--cor-texto-claro);
+  padding: 8px 10px;
+  border-radius: 5px; /* Deixei as bordas mais quadradas, como um slot de item */
+  cursor: pointer;
+  border: 1px solid var(--cor-fundo-principal);
+  transition: background-color 0.2s, border-color 0.2s;
+  font-weight: normal;
+  margin: 0;
+  display: block; /* Ocupa o espaço total para ser clicável */
+  font-size: 0.9rem;
+}
+
+.interesse-item input[type="checkbox"]:checked + label {
+  background-color: var(--cor-destaque-secundario);
+  color: var(--cor-texto-escuro);
+  border-color: var(--cor-destaque-primario);
+  font-weight: bold;
+}
+
+/* --- Seção de Clã/Família (Guilda) - AJUSTADO O LAYOUT --- */
+.cla-section {
+  margin-top: 25px;
+  padding: 20px;
+  border: 1px solid var(--cor-destaque-secundario);
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.cla-section h4 {
+    font-family: 'Cinzel', serif;
+    color: var(--cor-destaque-primario);
+    margin-top: 0;
+    border-bottom: 1px dashed var(--cor-destaque-primario);
+    padding-bottom: 8px;
+}
+
+.membros-list {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-bottom: 5px;
+}
+
+.cla-section input {
+    margin-bottom: 10px;
+}
+
+.cla-section button {
+    margin-top: 5px; /* Pequeno ajuste no botão de adicionar membro */
+    padding: 8px 15px;
+    font-size: 0.9rem;
+}
+
+/* --- Botão Flutuante de Ranking (Mantido) --- */
+.ranking-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ranking-button {
+    background-color: #a0522d;
+    color: var(--cor-texto-claro);
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: 2px solid var(--cor-destaque-primario);
+    border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s;
+    box-shadow: 0 3px #8B4513;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* --- Resultados, Progresso e Pop-up (Mantido) --- */
+/* ... (Restante do CSS, incluindo .resultado, .gamificacao-msg, .progresso-container, .toast-recompensa, etc.) ... */
+
+.resultado {
+    text-align: center;
+}
+
+.gamificacao-msg {
+    background-color: var(--cor-destaque-primario);
+    color: var(--cor-texto-escuro);
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    box-shadow: 0 0 15px rgba(255, 211, 105, 0.5);
+    font-family: 'Cinzel', serif;
+}
+/* ... (outras classes de resultado) ... */
+.toast-recompensa {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 400px;
+    background: linear-gradient(135deg, var(--cor-destaque-primario), #ff9900);
+    color: var(--cor-texto-escuro);
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    animation: fadeInOut 5s ease-in-out forwards;
+    border: 5px solid #a0522d;
+}
+
+.toast-recompensa h3 {
+    font-family: 'Cinzel', serif;
+    color: #a0522d;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; top: 40%; }
+    10% { opacity: 1; top: 50%; }
+    90% { opacity: 1; top: 50%; }
+    100% { opacity: 0; top: 60%; }
 }

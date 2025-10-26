@@ -1,4 +1,8 @@
-CPF,RA,Nome,Sexo,Data de Nascimento,Idade,Email,Telefone,Rua,n°,Bairro,Cidade,CEP,Data Matrícula,Polo,Curso,Religião,Período Letivo,Status,tipo_matricula
-11122233344,112233,Ana Beatriz Lima,Feminino,2005-03-15,20,ana.lima@email.com,19991112222,Rua das Flores,123,Centro,Engenheiro Coelho,13165-000,2023-01-20,UNASP-EC,Publicidade,Adventista,3,Matriculado,Regular
-55566677788,445566,Bruno Costa,Masculino,2003-07-22,22,bruno.costa@email.com,19992223333,Avenida da Amizade,456,Jardim Universitário,Engenheiro Coelho,13165-000,2022-01-21,UNASP-EC,Análise de Sistemas,Católica,5,Matriculado,Regular
-99900011122,778899,Carla Dias,Feminino,2004-11-01,21,carla.dias@email.com,19993334444,Rua do Saber,789,Cidade Universitária,Engenheiro Coelho,13165-000,2022-06-18,UNASP-EC,Psicologia,Espírita,4,Matriculado,Regular
+TELEFONE,NOME,SOBRENOME,RA,CPF
+(19) 99111-2222,Ana Beatriz,Lima,112233,11122233344
+(19) 99222-3333,Bruno,Costa,445566,55566677788
+(19) 99333-4444,Carla,Dias,778899,99900011122
+(45) 991050690,Nathan,Junio,217720,70144709651
+(11) 930084645,Kauã,Martins,208388,12345678900
+(21) 99876-5432,Mariana,Souza,334455,44455566677
+(31) 99765-4321,Lucas,Oliveira,556677,88899900011

@@ -20,7 +20,7 @@
       "telefone": "19993334444",
       "nomeCompleto": "Zé da gasolina",
       "nickname": "Legard",
-      "contador_visitas": 1,
+      "contador_visitas": 3,
       "cla_id": null,
       "historicoVisitas": [
         {
@@ -29,6 +29,317 @@
             "RPG"
           ],
           "membrosPresentes": []
+        },
+        {
+          "data": "2025-10-26T08:46:13.282Z",
+          "interesses": [
+            "Jogos de carta"
+          ],
+          "membrosPresentes": [],
+          "moedasGanhadas": 1200
+        },
+        {
+          "data": "2025-10-26T09:35:44.303Z",
+          "interesses": [
+            "Jogos de carta"
+          ],
+          "membrosPresentes": [],
+          "moedasGanhadas": 300
+        }
+      ],
+      "moedas_ouro": 300,
+      "nivel": 1,
+      "xp_para_proximo_nivel": 1500
+    },
+    {
+      "telefone": "1184125454545",
+      "nomeCompleto": "lauhdsad",
+      "nickname": "lauhdsad",
+      "ehAluno": false,
+      "contador_visitas": 1,
+      "nivel": 1,
+      "moedas_ouro": 300,
+      "xp_para_proximo_nivel": 1500,
+      "cla_id": null,
+      "historicoVisitas": [
+        {
+          "data": "2025-10-26T08:46:28.874Z",
+          "interesses": [
+            "Jogos de carta"
+          ],
+          "membrosPresentes": [],
+          "moedasGanhadas": 300
+        }
+      ]
+    },
+    {
+      "telefone": "11930084641",
+      "nomeCompleto": "Kauã",
+      "nickname": "Kauã",
+      "ehAluno": false,
+      "contador_visitas": 1,
+      "nivel": 1,
+      "moedas_ouro": 300,
+      "xp_para_proximo_nivel": 1500,
+      "cla_id": null,
+      "historicoVisitas": [
+        {
+          "data": "2025-10-26T08:58:56.150Z",
+          "interesses": [
+            "Jogos de carta"
+          ],
+          "membrosPresentes": [],
+          "moedasGanhadas": 300
+        }
+      ]
+    },
+    {
+      "telefone": "19991112222",
+      "nomeCompleto": "Ana Beatriz Lima",
+      "nickname": "sad",
+      "ehAluno": true,
+      "contador_visitas": 1,
+      "nivel": 1,
+      "moedas_ouro": 300,
+      "xp_para_proximo_nivel": 1500,
+      "cla_id": null,
+      "historicoVisitas": [
+        {
+          "data": "2025-10-26T08:59:17.489Z",
+          "interesses": [
+            "RPG de mesa"
+          ],
+          "membrosPresentes": [],
+          "moedasGanhadas": 300
+        }
+      ]
+    },
+    {
+      "telefone": "11930008464",
+      "nomeCompleto": "Paulinho loko",
+      "nickname": "Paulinho loko",
+      "ehAluno": false,
+      "contador_visitas": 10,
+      "nivel": 3,
+      "moedas_ouro": 3000,
+      "xp_para_proximo_nivel": 4500,
+      "cla_id": 1761470732960,
+      "historicoVisitas": [
+        {
+          "data": "2025-10-26T09:25:32.970Z",
+          "interesses": [
+            "Jogos de carta",
+            "Jogos digitais"
+          ],
+          "membrosPresentes": [],
+          "moedasGanhadas": 300
+        },
+        {
+          "data": "2025-10-26T09:25:54.883Z",
+          "interesses": [],
+          "membrosPresentes": [
+            "Pedro"
+          ],
+          "moedasGanhadas": 300
+        },
+        {
+          "data": "2025-10-26T10:05:18.947Z",
+          "interesses": [
+            "Jogos de carta",
+            "Jogos de tabuleiro",
+            "RPG de mesa"
+          ],
+          "membrosPresentes": [],
+          "moedasGanhadas": 300
+        },
+        {
+          "data": "2025-10-26T10:05:28.718Z",
+          "interesses": [],
+          "membrosPresentes": [
+            "Paulinho loko",
+            "Pedro"
+          ],
+          "moedasGanhadas": 300
+        },
+        {
+          "data": "2025-10-26T10:05:35.620Z",
+          "interesses": [
+            "Jogos digitais"
+          ],
+          "membrosPresentes": [
+            "Paulinho loko",
+            "Pedro"
+          ],
+          "moedasGanhadas": 300
+        },
+        {
+          "data": "2025-10-26T10:11:50.465Z",
+          "interesses": [
+            "Jogos cooperativos"
+          ],
+          "membrosPresentes": [
+            "Paulinho loko"
+          ],
+          "moedasGanhadas": 300
+        },
+        {
+          "data": "2025-10-26T10:11:56.982Z",
+          "interesses": [
+            "Jogos de estratégia"
+          ],
+          "membrosPresentes": [
+            "Paulinho loko",
+            "Pedro"
+          ],
+          "moedasGanhadas": 300
+        },
+        {
+          "data": "2025-10-26T10:12:04.187Z",
+          "interesses": [
+            "Jogos de estratégia",
+            "Jogos de carta",
+            "Jogos digitais",
+            "Jogos de tabuleiro"
+          ],
+          "membrosPresentes": [
+            "Paulinho loko",
+            "Pedro"
+          ],
+          "moedasGanhadas": 300
+        },
+        {
+          "data": "2025-10-26T10:12:15.923Z",
+          "interesses": [
+            "Jogos de estratégia",
+            "RPG de mesa",
+            "Jogos cooperativos",
+            "Jogos de carta",
+            "Jogos de tabuleiro",
+            "Jogos digitais"
+          ],
+          "membrosPresentes": [
+            "Paulinho loko",
+            "Pedro"
+          ],
+          "moedasGanhadas": 300
+        },
+        {
+          "data": "2025-10-26T10:12:26.762Z",
+          "interesses": [
+            "Jogos de estratégia",
+            "Jogos de tabuleiro",
+            "Jogos de carta",
+            "Jogos digitais",
+            "RPG de mesa",
+            "Jogos cooperativos"
+          ],
+          "membrosPresentes": [
+            "Paulinho loko",
+            "Pedro"
+          ],
+          "moedasGanhadas": 300
+        }
+      ]
+    },
+    {
+      "telefone": "19899210392",
+      "nomeCompleto": "Isaac Diniz",
+      "nickname": "Isaac Diniz",
+      "ehAluno": false,
+      "contador_visitas": 2,
+      "nivel": 1,
+      "moedas_ouro": 600,
+      "xp_para_proximo_nivel": 1500,
+      "cla_id": 1761471531063,
+      "historicoVisitas": [
+        {
+          "data": "2025-10-26T09:38:51.065Z",
+          "interesses": [
+            "Jogos de estratégia"
+          ],
+          "membrosPresentes": [],
+          "moedasGanhadas": 300
+        },
+        {
+          "data": "2025-10-26T09:39:28.267Z",
+          "interesses": [
+            "Jogos de tabuleiro",
+            "RPG de mesa",
+            "Jogos de estratégia"
+          ],
+          "membrosPresentes": [
+            "Micael",
+            "Sara"
+          ],
+          "moedasGanhadas": 300
+        }
+      ]
+    },
+    {
+      "telefone": "11930084645",
+      "nomeCompleto": "Legard_kan",
+      "nickname": "Legard_kan",
+      "ehAluno": false,
+      "contador_visitas": 3,
+      "nivel": 1,
+      "moedas_ouro": 900,
+      "xp_para_proximo_nivel": 1500,
+      "cla_id": null,
+      "historicoVisitas": [
+        {
+          "data": "2025-10-26T09:46:37.430Z",
+          "interesses": [
+            "Jogos de tabuleiro"
+          ],
+          "membrosPresentes": [],
+          "moedasGanhadas": 300
+        },
+        {
+          "data": "2025-10-26T09:47:25.972Z",
+          "interesses": [
+            "Jogos de carta"
+          ],
+          "membrosPresentes": [],
+          "moedasGanhadas": 300
+        },
+        {
+          "data": "2025-10-26T09:47:43.146Z",
+          "interesses": [
+            "Jogos de tabuleiro"
+          ],
+          "membrosPresentes": [],
+          "moedasGanhadas": 300
+        }
+      ]
+    },
+    {
+      "telefone": "78946543248",
+      "nomeCompleto": "Sara Cristina",
+      "nickname": "Kausduasd",
+      "ehAluno": false,
+      "contador_visitas": 2,
+      "nivel": 1,
+      "moedas_ouro": 600,
+      "xp_para_proximo_nivel": 1500,
+      "cla_id": 1761472355371,
+      "historicoVisitas": [
+        {
+          "data": "2025-10-26T09:52:35.376Z",
+          "interesses": [
+            "RPG de mesa"
+          ],
+          "membrosPresentes": [],
+          "moedasGanhadas": 300
+        },
+        {
+          "data": "2025-10-26T09:53:21.862Z",
+          "interesses": [
+            "Jogos de estratégia"
+          ],
+          "membrosPresentes": [
+            "Kauã"
+          ],
+          "moedasGanhadas": 300
         }
       ]
     }

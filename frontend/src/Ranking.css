@@ -1,0 +1,136 @@
+/* src/Ranking.css (Estilo Salão das Lendas - Mantido/Aprimorado) */
+
+/* Importação de Fontes Temáticas do Google Fonts */
+/* 'Cinzel' para títulos (Serifado de fantasia) */
+/* 'Roboto Condensed' para corpo (Legibilidade moderna) */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+:root {
+  /* Paleta de Cores do Ranking */
+  --cor-fundo-ranking: #1a1a2e; /* Azul Escuro Profundo */
+  --cor-fundo-card-ranking: #fdf5e6; /* Pergaminho */
+  --cor-borda-card: #8B4513; /* Marrom (Madeira/Couro) */
+  --cor-titulo-ranking: #f1c40f; /* Ouro */
+  --cor-texto-ranking: #5d4037; /* Marrom Escuro no Pergaminho */
+  --cor-score-ranking: #c0392b; /* Vermelho Destaque */
+}
+
+.ranking-container {
+    /* Fundo de Pedra ou Escuro */
+    background: url('https://www.transparenttextures.com/patterns/dark-stone-wall.png'), var(--cor-fundo-ranking);
+    min-height: 100vh;
+    padding: 40px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: var(--cor-texto-claro);
+}
+
+.ranking-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ranking-header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3.5rem;
+    color: var(--cor-titulo-ranking);
+    text-shadow: 2px 2px 4px #000;
+    margin: 0;
+}
+
+.ranking-header p {
+    font-size: 1.2rem;
+    color: #bdc3c7;
+}
+
+.rankings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.ranking-card {
+    border: 5px solid var(--cor-borda-card);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    background-color: var(--cor-fundo-card-ranking); /* Cor de pergaminho */
+    color: var(--cor-texto-ranking);
+}
+
+.ranking-title {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: var(--cor-borda-card);
+    border-bottom: 2px solid var(--cor-borda-card);
+    padding-bottom: 10px;
+}
+
+.ranking-card ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ranking-card li {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    border-bottom: 1px dashed #d2b48c;
+    font-size: 1.1rem;
+    transition: background-color 0.2s;
+}
+
+.ranking-card li:nth-child(odd) {
+    background-color: rgba(210, 180, 140, 0.1); /* Faixa clara no pergaminho */
+}
+
+.ranking-card li:hover {
+    background-color: rgba(210, 180, 140, 0.4); 
+}
+
+.rank-position {
+    font-size: 1.5rem;
+    width: 50px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.rank-number {
+    font-weight: bold;
+    color: #7f8c8d;
+}
+
+.rank-name {
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+.rank-score {
+    font-weight: 700;
+    color: var(--cor-score-ranking);
+    font-size: 1.2rem;
+}
+
+.score-unit {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-left: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .ranking-container {
+        padding: 20px 10px;
+    }
+    .ranking-header h1 {
+        font-size: 2.5rem;
+    }
+    .rankings-grid {
+        gap: 30px;
+    }
+}

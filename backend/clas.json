@@ -1,3 +1,50 @@
 {
-  "familias": []
+  "familias": [
+    {
+      "id": 1761470732960,
+      "nome_familia": "Família de Paulinho loko",
+      "membros": [
+        {
+          "nome": "Paulinho loko",
+          "telefone": "11930008464"
+        },
+        {
+          "nome": "Pedro",
+          "telefone": "19991112222"
+        }
+      ]
+    },
+    {
+      "id": 1761471531063,
+      "nome_familia": "Família de Isaac Diniz",
+      "membros": [
+        {
+          "nome": "Isaac Diniz",
+          "telefone": "19899210392"
+        },
+        {
+          "nome": "Micael",
+          "telefone": "151436145646546514654"
+        },
+        {
+          "nome": "Sara",
+          "telefone": "545845121212154"
+        }
+      ]
+    },
+    {
+      "id": 1761472355371,
+      "nome_familia": "Família de Sara Cristina",
+      "membros": [
+        {
+          "nome": "Sara Cristina",
+          "telefone": "78946543248"
+        },
+        {
+          "nome": "Kauã",
+          "telefone": "2121212121212121212"
+        }
+      ]
+    }
+  ]
 }
